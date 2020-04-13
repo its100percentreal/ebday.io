@@ -3,6 +3,93 @@ layout: default
 title: Home
 ---
 
+<audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+</p>
+<!--
+ <a href="#">
+ --> 
+</p>
+<p>
+  <img src="assets/img/corpmime.gif" alt="corpmime" width="300" height="400">
+<img src="assets/img/surfing sheep.gif" alt="surfing sheep" width="300" height="400">
+<img src="assets/img/skateboarding.gif" alt="skateboarding" width="300" height="400">
+<img class="animation-target" src="assets/img/elephant.gif" alt="elephant" width="280" height="223">
+</p>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content">
+  <span class="close">&times;</span>
+  <h1>Present!</h1>
+  <p>One resume/portfolio/professional website!</p>
+  <p><em>that looks much better than this one</em></p>
+</div>
+
+</div> 
+
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="flipper">
+  <div class="front">
+    <img class="norep" src="assets/img/pancake.jpg" alt="pancake" width="300" height="400">
+  </div>
+  <div class="back">
+    <img class="norep" src="assets/img/pancake_flip.jpg" alt="pancake" width="300" height="400">
+  </div>
+</div>
+</div>
+
+<img  class="present" src="assets/img/present.gif" alt="present"> 
+  <img class="present" alt="present" src="{{ "/assets/img/present.gif" | prepend: site.baseurl }}" />
+
+  <div class="card">
+    <div class="back"></div>
+    <div class="front">
+      <div class="cover-shape-large">
+        <div class="shape-diamond"></div>
+        <div class="shape-block"></div>
+      </div>
+      <div class="cover-shape-small">
+        <div class="shape-diamond"></div>
+        <div class="shape-block">
+          <div class="cake">
+            <div class="layer layer-bottom"></div>
+            <div class="layer layer-middle"></div>
+            <div class="layer layer-top"></div>
+            <div class="icing"></div>
+            <div class="drip drip1"></div>
+            <div class="drip drip2"></div>
+            <div class="drip drip3"></div>
+            <div class="candle">
+              <div class="flame"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-container">
+      <p id="head">Happy Birthday Eric!</p>
+      <p>I hope you're having a great day!</p>
+      <p>Love,<br>
+      Trevor</p>
+      <p>p.s. click the present below for your gift!</p>
+    <p>
+    </div>
+  </div>
+
+
+  <p><img  class="present" id="myBtn" src="assets/img/present.gif" alt="present"> 
+    <img class="present" alt="present" src="{{ "/assets/img/present.gif" | prepend: site.baseurl }}" /></p>
+
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
